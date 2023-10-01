@@ -1,0 +1,64 @@
+.about {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.about_header {
+  color: #152d41;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 70px;
+}
+
+.about_content_storage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.about_content_box:nth-of-type(odd) {
+  display: flex;
+  padding-bottom: 70px;
+}
+.about_content_box:nth-of-type(even) {
+  display: flex;
+
+  flex-direction: row-reverse;
+}
+.about_content_img {
+  display: flex;
+  flex-direction: column;
+  width: 197px;
+  height: 197px;
+  border-radius: 197px;
+  background-size: cover;
+}
+
+.about_content_box:nth-of-type(odd) .about_content_img {
+  background-image: url("./data/man.jpg");
+}
+
+.about_content_box:nth-of-type(even) .about_content_img {
+  background-image: url("./data/woman.jpg");
+}
+
+.about_content_box_text {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.about_content_box:nth-of-type(even) .about_content_box_text {
+  padding-right: 20px;
+  text-align: right;
+}
+
+.about_content_box:nth-of-type(odd) .about_content_box_text {
+  padding-left: 20px;
+}
+
+.about_content_header {
+  font-weight: bold;
+  margin-bottom: 20px;
+}

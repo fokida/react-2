@@ -1,0 +1,21 @@
+.footer {
+  height: 7vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #4e4e4e;
+}
+
+.info {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.social > .list > .list_social {
+  display: inline;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
