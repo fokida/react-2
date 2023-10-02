@@ -2,7 +2,7 @@
   width: 100%;
   height: 93vh;
   background-size: cover;
-  background-image: url("./data/forest.jpg");
+  background-image: url("/src/Assets/forest.jpg");
 }
 .shadow {
   width: 100%;

@@ -1,10 +1,11 @@
 import React from "react";
-import Navigation from "./components/Navigation.js";
-import LandingPage from "./components/LandingPage.js";
-import About from "./components/About.js";
-import Offer from "./components/Offer.js";
-import Footer from "./components/Footer.js";
-import "./index.css";
+import Navigation from "./components/Navigation/Navigation.js";
+import LandingPage from "./components/LandingPage/LandingPage.js";
+import About from "./components/About/About.js";
+import Offer from "./components/Offer/Offer.js";
+import Footer from "./components/Footer/Footer.js";
+import "./reset.css";
+import "./App.css";
 
 const App = () => {
   return (

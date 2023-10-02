@@ -35,11 +35,11 @@
 }
 
 .about_content_box:nth-of-type(odd) .about_content_img {
-  background-image: url("./data/man.jpg");
+  background-image: url("/src/Assets/man.jpg");
 }
 
 .about_content_box:nth-of-type(even) .about_content_img {
-  background-image: url("./data/woman.jpg");
+  background-image: url("/src/Assets/woman.jpg");
 }
 
 .about_content_box_text {
